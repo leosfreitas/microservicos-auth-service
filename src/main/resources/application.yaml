@@ -1,12 +1,12 @@
 server:
   port: 8080
+  address: 0.0.0.0
 
 spring:
   application:
     name: auth
 
-
 store:
   jwt:
     issuer: Insper
-    secretKey: ${JWT_SECRET_KEY:yrBBgYlvJQeslzFlgX9MFZccToI2fjRFqualquercoisa}
+    secretKey: ${JWT_SECRET_KEY:9FmjT8O3KACNhEDOhhRnfVNQ28xyBc66NR3KBLvllTM=}
